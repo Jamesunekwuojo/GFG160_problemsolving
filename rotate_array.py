@@ -26,7 +26,7 @@ Note: Consider the array as circular.
 # final array with the two reversed chunks together. time complesit O(n) space complexity O(1)
 """
 Algorithm:
-Step 1: Define function rotaateArr.
+Step 1: Define function rotaateArr. That wil revceive parameters 'arr, d'
 Step 2: Create variable n to store the lenght of the array.
 Step 3: Handle cases where d( no of times array should be rotated) is greater than 
 size of the array. E.g if we ask to rotate by 9 times, and the size of the array is 4
