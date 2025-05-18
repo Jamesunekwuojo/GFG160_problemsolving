@@ -39,4 +39,32 @@ we have given for our 1st chunk.
 Step 5: Reverse remaining n-d elements..
 """
 
+def rotateArr(arr, d):
+        #Your code here
+        n = len(arr)
+    
+        d = d % n
 
+        
+            
+        def reverse(arr, start, end):
+            while start < end:
+                arr[start], arr[end] = arr[end], arr[start]
+                
+                start+=1
+                
+                end-=1
+        
+        reverse(arr, 0, d-1)
+        
+        reverse(arr, d, n-1)
+        
+        reverse(arr, 0, n-1)
+
+if __name__ == "__main__":
+  arr = [1,2,3, 4, 6, 8]
+  d =2
+  
+  rotateArr(arr, d)
+  for i in range(len(arr)):
+    print(arr[i], end= " ")
