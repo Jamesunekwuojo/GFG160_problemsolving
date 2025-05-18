@@ -11,6 +11,15 @@ Note: Consider the array as circular.
 
 # '1' will go back and then any other element will shoft their position by one.
 
-**APPROACHES**
-Approach 1: Performing 1 left shift d times
-complexity for this appraoch are:Time complexity is O(n) it will take O(n *d) whuch is not the best.
+# **APPROACHES**
+# Approach 1: Performing 1 left shift d times
+# complexity for this appraoch are:Time complexity is O(n) it will take O(n *d) whuch is not the best.
+# Apprach 2:  Juggling Algorithmn
+# gcd(greatest common divisor)
+# gcd(length of array, d) ----> It meeans the gcd the highest common divisor of the 
+# array and no of times (d) to rotate the array.
+# Aprroach 3: Reversal array
+# In this reversal array approach will divide the array into two chunks. The first chunks
+# will be according to the number of the 'd' (that's no of times array is to be rotated ) value.   
+# Reverse each part of the array and then after the reversal of the two arrays. Reverse the 
+# final array with the two reversed chunks together.
