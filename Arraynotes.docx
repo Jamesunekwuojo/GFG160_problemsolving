@@ -1,1 +1,12 @@
 *** ARRAY NOTES ****
+Array is a data structure that  stores  collection of elements of the same data tupe in 
+contiguous memory locations. In contigous memeory here means they are arranged next to each other in
+memory. Each element in the array can be accessed directly using its index.
+
+** Key Features of an Array:
+1. Data type: All ellements must be of the same data type.
+2.Contiguous Memory: All elements are stored in seqeuntial memory locations allowing for
+effecient access.
+3. Indexing: Each elemet has a unique index, starting at '0' that identifies its position
+in th array.
+4. Fixed size: Number of elements they cah hold is determined at the  time of declaration.
